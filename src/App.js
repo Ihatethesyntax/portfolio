@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import "./styles/global.css";
+import "./styles/typography.css";
+import Header from "./features/header/Header";
+import { debounce } from "lodash";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <Header />
       </header>
+      <main>
+        <section className="sectioneven"></section>
+        <section className="sectionodd"></section>
+        <section className="sectioneven"></section>
+        <section className="sectionodd"></section>
+        <section className="sectioneven"></section>
+      </main>
     </div>
   );
 }

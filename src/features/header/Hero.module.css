@@ -1,0 +1,14 @@
+.container {
+  margin: 0 22rem;
+}
+
+.hero h1 {
+  color: #fff;
+}
+
+.hero p {
+  width: 60%;
+  color: #fff;
+  line-height: 1.7;
+  font-size: 1.8rem;
+}

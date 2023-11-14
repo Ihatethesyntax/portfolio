@@ -1,0 +1,18 @@
+h1 {
+  font-size: var(--header-xlarge);
+  letter-spacing: 2.5px;
+}
+
+h2 {
+  font-size: var(--heading-large);
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  color: var(--color-white);
+  font-size: var(--heading-medium);
+}
+
+p {
+  font-size: var(--text-default);
+}
